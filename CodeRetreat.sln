@@ -1,7 +1,31 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "CodeRetreat", "CodeRetreat\CodeRetreat.fsproj", "{75345247-7D5E-4830-9ECB-D149A6EDDDC4}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "CodeRetreat.FSharpTests", "CodeRetreat.FSharpTests\CodeRetreat.FSharpTests.fsproj", "{5CB9706F-F000-499D-8CDB-069F417362AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeRetreat.CSharpTests", "CodeRetreat.CSharpTests\CodeRetreat.CSharpTests.csproj", "{02741E87-4451-4BA1-84DA-50047FFE3571}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75345247-7D5E-4830-9ECB-D149A6EDDDC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75345247-7D5E-4830-9ECB-D149A6EDDDC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75345247-7D5E-4830-9ECB-D149A6EDDDC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75345247-7D5E-4830-9ECB-D149A6EDDDC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CB9706F-F000-499D-8CDB-069F417362AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CB9706F-F000-499D-8CDB-069F417362AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CB9706F-F000-499D-8CDB-069F417362AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CB9706F-F000-499D-8CDB-069F417362AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02741E87-4451-4BA1-84DA-50047FFE3571}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02741E87-4451-4BA1-84DA-50047FFE3571}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02741E87-4451-4BA1-84DA-50047FFE3571}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02741E87-4451-4BA1-84DA-50047FFE3571}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
