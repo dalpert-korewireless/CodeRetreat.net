@@ -1,0 +1,44 @@
+# Disable git's line-ending normalization 
+#    (which tries to store all line endings as LF in the repo) 
+#    b/c we are into and out of TFS and with other devs who 
+#    all work in Windows (i.e. with CRLF)
+#
+# more info:
+# - Git-TF -> Recommended Git Settings: 
+#   https://gittf.codeplex.com/wikipage?title=Recommended%20Git%20Settings
+#   
+# - Git-TFS -> Wrong EOL (LF) in files commited to TFS
+#		https://github.com/git-tfs/git-tfs/issues/528
+#
+* -text 
+
+# Custom for Visual Studio
+*.cs     diff=csharp
+*.sln    merge=union
+*.csproj merge=union
+*.vbproj merge=union
+*.fsproj merge=union
+*.dbproj merge=union
+
+# Standard to msysgit
+*.doc	 diff=astextplain
+*.DOC	 diff=astextplain
+*.docx diff=astextplain
+*.DOCX diff=astextplain
+*.dot  diff=astextplain
+*.DOT  diff=astextplain
+*.pdf  diff=astextplain
+*.PDF	 diff=astextplain
+*.rtf	 diff=astextplain
+*.RTF	 diff=astextplain
+
+#Binary
+*.dll  binary
+*.exe  binary
+*.png  binary
+*.jpg  binary
+*.gif  binary
+*.tif  binary
+*.tiff binary
+*.snk  binary
+*.ttf  binary
